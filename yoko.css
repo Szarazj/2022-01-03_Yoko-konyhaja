@@ -17,7 +17,7 @@ body {
 }
 
 header {
-	height: 160px;	
+	height: 200px;	
 }
 
 h1 {
@@ -37,6 +37,7 @@ nav ul {
 }
 
 nav li {
+	float:left;
 	margin-right: 40px;
 }
 
@@ -58,6 +59,9 @@ article {
 	clear: both;
 	overflow: auto;
 	width: 98%;
+}
+article p {
+	text-align: justify;
 }
 
 hgroup {
